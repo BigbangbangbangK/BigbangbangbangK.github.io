@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 
 
-<html lang="en" >
+<html lang="zh-Hans" >
 
 
 <head>
   <meta charset="utf-8" />
     
+  <meta name="description" content="我欲乘风破浪，踏遍黄沙海洋。" />
+  
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title>
-    Hello World |  Hexo
+    Hello World |  
   </title>
   <meta name="generator" content="hexo-theme-yilia-plus">
   
@@ -28,6 +30,7 @@
 
   
 
+<link rel="alternate" href="/atom.xml" title="null" type="application/atom+xml">
 </head>
 
 </html>
@@ -63,7 +66,7 @@
     <span class="post-time">
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
-            <span class="post-meta-item-text"> Word count:</span>
+            <span class="post-meta-item-text"> Wortzahl:</span>
             <span class="post-count">73</span>
         </span>
     </span>
@@ -72,8 +75,8 @@
         &nbsp; | &nbsp;
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
-            <span class="post-meta-item-text"> Reading time≈</span>
-            <span class="post-count">1 min</span>
+            <span class="post-meta-item-text"> Lesezeit≈</span>
+            <span class="post-count">1 Minuten</span>
         </span>
     </span>
 </div>
@@ -115,10 +118,6 @@
       
       <!-- reward -->
       
-      <div id="reward-btn">
-        Reward
-      </div>
-      
     </div>
     
     
@@ -128,8 +127,8 @@
           <ul class="post-copyright">
             <li>
               <i class="ri-copyright-line"></i>
-              <strong>Copyright： </strong>
-              Copyright is owned by the author. For commercial reprints, please contact the author for authorization. For non-commercial reprints, please indicate the source.
+              <strong>Copyright-Hinweis： </strong>
+              Sofern nicht anders angegeben, liegt das Urheberrecht aller Artikel in diesem Blog beim Autor. Nachdruck bitte Quelle angeben!
             </li>
           </ul>
         </div>
@@ -213,7 +212,7 @@
         path: window.location.pathname,
         notify: 'false',
         verify: 'false',
-        avatar: 'monsterid',
+        avatar: 'mp',
         placeholder: '给我的文章加点评论吧~',
         recordIP: true
     });
@@ -261,10 +260,15 @@
     <ul class="list-inline">
       <li>
         &copy;
-        2015-2020
-        John Doe
+        2020
+        王永松(Tony)
       </li>
       <li>
+        
+        Powered by
+        
+        
+        <a href="https://hexo.io" target="_blank">Hexo</a> Theme <a href="https://github.com/Shen-Yu/hexo-theme-ayer" target="_blank">Ayer</a>
         
       </li>
     </ul>
@@ -282,7 +286,7 @@
       <li>
         <!-- cnzz统计 -->
         
-        <script type="text/javascript" src='https://s9.cnzz.com/z_stat.php?id=1278069914&amp;web_id=1278069914'></script>
+        <script type="text/javascript" src=''></script>
         
       </li>
     </ul>
@@ -304,7 +308,7 @@
 <nav class="navbar">
   
   <div class="logo">
-    <a href="/"><img src="/images/ayer-side.svg" alt="Hexo"></a>
+    <a href="/"><img src="/images/ayer-side.svg" alt=""></a>
   </div>
   
   <ul class="nav nav-main">
@@ -326,11 +330,11 @@
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" href="/tags/%E6%97%85%E8%A1%8C/">旅行</a>
+      <a class="nav-item-link" href="http://shenyu-vip.lofter.com" target="_blank" rel="noopener">摄影</a>
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" href="http://shenyu-vip.lofter.com" target="_blank" rel="noopener">摄影</a>
+      <a class="nav-item-link" href="/tags/%E6%97%85%E8%A1%8C/">旅行</a>
     </li>
     
     <li class="nav-item">
@@ -343,7 +347,7 @@
   <ul class="nav">
     <li class="nav-item">
       
-      <a class="nav-item-link nav-item-search"  title="Search">
+      <a class="nav-item-link nav-item-search"  title="Suche">
         <i class="ri-search-line"></i>
       </a>
       
@@ -548,6 +552,30 @@
     viewer_init()
 </script>
 
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+      tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+  });
+
+  MathJax.Hub.Queue(function() {
+      var all = MathJax.Hub.getAllJax(), i;
+      for(i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+      }
+  });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.6/unpacked/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+  var ayerConfig = {
+    mathjax: true
+  }
+</script>
 
 
 
